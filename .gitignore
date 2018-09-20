@@ -1,0 +1,7 @@
+# ignore everthing
+*
+
+#
+!.gitignore
+!Jenkinsfile
+!readme.md
