@@ -4,4 +4,4 @@
 # except this
 !.gitignore
 !Jenkinsfile
-!readme.md
+!README.md
