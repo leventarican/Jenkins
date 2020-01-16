@@ -41,8 +41,10 @@ node {
     // Archive the build output artifacts.
     archiveArtifacts artifacts: 'output/*.txt', excludes: 'output/*.md'
     
-    stage "son"
-    
+    stage "pwd"
+
+    sh "ls -la ${pwd()}"    
+
     echo "done."
 }
 ```
