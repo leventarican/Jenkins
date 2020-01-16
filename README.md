@@ -11,8 +11,10 @@
 ## example pipeline
 * this pipeline uses credentials and write it to a file: credentials.txt
 * create a credentials under: http://localhost:8080/credentials/store/system/domain/_/newCredentials
+	* in the example I used: `jenkins_credential_0`
 * create a new job: http://localhost:8080/view/all/newJob 
 * paste pipeline code
+	* based on: https://jenkins.io/doc/pipeline/examples/
 ```
 // This shows a simple example of how to archive the build output artifacts.
 node {
